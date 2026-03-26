@@ -1,68 +1,71 @@
 
-# 📊 Projet d’analyse de données — Obésité en Tunisie
-
-Ce projet explore les facteurs liés à l’obésité en Tunisie à travers une analyse de données basée sur une enquête menée auprès de la population tunisienne.
 
 ---
 
-## 🎯 Objectif
+# 📊 Data Analysis Project — Obesity in Tunisia
 
-L’objectif principal est d’identifier les relations entre **les habitudes de vie**, **l’alimentation** et **le risque d’obésité**, en utilisant des méthodes statistiques avancées.
+This project explores the factors associated with obesity in Tunisia through a data analysis study based on a survey conducted among the Tunisian population.
+The study is done in French.
+---
+
+## 🎯 Objective
+
+The main objective is to identify relationships between **lifestyle habits**, **diet**, and the **risk of obesity** using advanced statistical methods.
 
 ---
 
-## 🧾 Collecte des données
+## 🧾 Data Collection
 
-Dans le cadre de ce projet :
+As part of this project:
 
-* Un **questionnaire** a été conçu et diffusé auprès de Tunisiens et Tunisiennes
-* Les questions portent sur :
+* A **questionnaire** was designed and distributed to Tunisian participants
+* The survey includes questions about:
 
-  * Les habitudes alimentaires
-  * L’activité physique
-  * L’hygiène de vie générale
-* Les réponses ont été collectées puis exportées dans un fichier **CSV**
-
----
-
-## 🧠 Méthodologie
-
-L’analyse a été réalisée avec **R** via **RStudio**, en appliquant plusieurs techniques d’analyse de données :
-
-* 🔹 **Analyse en Composantes Principales (ACP)** : pour réduire la dimension et visualiser les corrélations entre variables
-* 🔹 **Analyse des Correspondances Multiples (ACM)** : pour analyser les variables qualitatives
-* 🔹 Nettoyage et préparation des données
-* 🔹 Visualisation des résultats
+  * Dietary habits
+  * Physical activity
+  * General lifestyle and hygiene
+* The responses were collected and exported into a **CSV file**
 
 ---
 
-## 📁 Contenu du repository
+## 🧠 Methodology
 
-Le dépôt contient les fichiers suivants :
+The analysis was conducted using **R** with **RStudio**, applying several data analysis techniques:
 
-* **`donnée.csv`** : données collectées via le questionnaire
-* **`code.Rmd`** : script R Markdown contenant tout le processus d’analyse
-* **`Rapport.html`** : rapport final généré avec les résultats et visualisations
-
----
-
-## 📈 Résultats
-
-Les résultats de l’analyse mettent en évidence :
-
-* Des **relations entre certaines habitudes alimentaires et l’obésité**
-* L’impact de **l’activité physique** sur la santé
-* Des **profils types** basés sur les comportements alimentaires
-
-👉 Tous les résultats détaillés sont disponibles dans le fichier **Rapport.html**
+* 🔹 **Principal Component Analysis (PCA)**: to reduce dimensionality and visualize correlations between variables
+* 🔹 **Multiple Correspondence Analysis (MCA)**: to analyze categorical variables
+* 🔹 Data cleaning and preprocessing
+* 🔹 Data visualization
 
 ---
 
-## 🚀 Outils utilisés
+## 📁 Repository Structure
+
+The repository contains the following files:
+
+* **`donnée.csv`**: dataset collected from the survey
+* **`code.Rmd`**: R Markdown script containing the full analysis pipeline
+* **`Rapport.html`**: final report with results and visualizations
+
+---
+
+## 📈 Results
+
+The analysis highlights:
+
+* Relationships between certain **dietary habits and obesity**
+* The impact of **physical activity** on health
+* Identification of **behavior-based profiles** among participants
+
+👉 All detailed results are available in **`Rapport.html`**
+
+---
+
+## 🚀 Tools Used
 
 * **R**
 * **RStudio**
-* Packages principaux :
+* Main packages:
 
   * `FactoMineR`
   * `factoextra`
@@ -70,19 +73,18 @@ Les résultats de l’analyse mettent en évidence :
 
 ---
 
-## 📌 Perspectives d’amélioration
+## 📌 Future Improvements
 
-* Augmenter la taille de l’échantillon
-* Ajouter des variables médicales (IMC réel, historique de santé…)
-* Appliquer des modèles prédictifs (classification, régression)
-* Comparer avec des données d’autres pays
+* Increase the sample size
+* Include medical variables (BMI, health history, etc.)
+* Apply predictive models (classification, regression)
+* Compare results with data from other countries
 
 ---
 
 ## 🤝 Contribution
 
-Les suggestions et améliorations sont les bienvenues !
+Suggestions and contributions are welcome!
 
 ---
-
 
